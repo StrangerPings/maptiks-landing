@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="610.5px" height="1260px"
+	 viewBox="0 -605 610.5 1260" enable-background="new 0 -605 610.5 1260" xml:space="preserve">
+<title>graph</title>
+<desc>Created with Sketch Beta.</desc>
+<rect y="-605" opacity="0.25" width="610.5" height="1260"/>
+<g id="Page-1" sketch:type="MSPage" display="none">
+	<g id="WINNER" transform="translate(0.000000, -177.000000)" sketch:type="MSArtboardGroup" display="inline">
+		<g id="header" transform="translate(-36.000000, -166.000000)" sketch:type="MSLayerGroup">
+			<g id="backgroun" transform="translate(9.000000, 157.000000)" sketch:type="MSShapeGroup">
+				<g id="graph" transform="translate(-83.000000, 3.000000)">
+					<g transform="translate(110.000000, 184.000000)">
+						<path id="Path-539_1_" fill="none" stroke="#2595FF" stroke-width="3" d="M0,583c0,0,96.77-113.578,184.879-109.062
+							s150.727,71.254,216.34,71.254S537.488,431.84,612.133,431.84s151.621,103.602,207.547,84.277s144.699-145.656,167.09-188.176
+							s123.668-167.051,253.203-194.801S1422.328,50.033,1440,0"/>
+						<g id="graph-dots" transform="translate(167.000000, 116.000000)">
+							<circle id="Oval-60" fill="#2A689A" stroke="#2595FF" stroke-width="2" cx="8" cy="357" r="8"/>
+							<circle id="Oval-60_1_" fill="#2E6F9D" stroke="#2595FF" stroke-width="2" cx="237" cy="428" r="8"/>
+							<circle id="Oval-60_2_" fill="#3275A2" stroke="#2595FF" stroke-width="2" cx="440" cy="315" r="8"/>
+							<circle id="Oval-60_3_" fill="#32749A" stroke="#2595FF" stroke-width="2" cx="639" cy="403" r="8"/>
+							<circle id="Oval-60_4_" fill="#347FAA" stroke="#2595FF" stroke-width="2" cx="831" cy="193" r="8"/>
+							<circle id="Oval-60_5_" fill="#34789C" stroke="#2595FF" stroke-width="2" cx="1110" cy="8" r="8"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

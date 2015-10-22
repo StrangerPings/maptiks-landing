@@ -1,0 +1,42 @@
+/* 
+Project Name: Maptiks New
+Author: Julien Jacques @julienjacques on the tweets
+*/
+
+/*----------------------------------------------------------------------------- 
+=HERO
+-----------------------------------------------------------------------------*/
+
+.app-graph-reverse {
+  width: 150%;
+  position: absolute;
+  right: -40;
+  top: 0px;
+}
+
+#brand-icon {
+	width: 25px;
+	height: 15px;
+
+}
+
+/*----------------------------------------------------------------------------- 
+=TEST THIS
+-----------------------------------------------------------------------------*/
+.brand-icon-block {
+  padding-bottom: 20px;
+}
+@media (min-width: 68px) {
+  .brand-icon-block {
+    padding-bottom: 0;
+  }
+}
+
+.block-title h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
