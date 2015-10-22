@@ -3,9 +3,23 @@ Project Name: Maptiks New
 Author: Julien Jacques @julienjacques on the tweets
 */
 
+
+
+/*----------------------------------------------------------------------------- 
+=Colors
+
+blue: #288FB2
+light grey background: #f8f8f8
+background dark: #338474F
+orange: #ef6c00
+-----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------- 
 =HERO
 -----------------------------------------------------------------------------*/
+
+body {
+	font-size: 200px;
+}
 
 .app-graph-reverse {
   width: 150%;
@@ -17,7 +31,12 @@ Author: Julien Jacques @julienjacques on the tweets
 #brand-icon {
 	width: 25px;
 	height: 15px;
+}
 
+
+.browser-image {
+	width: 100px;
+	height: 100px;
 }
 
 /*----------------------------------------------------------------------------- 
@@ -35,6 +54,7 @@ Author: Julien Jacques @julienjacques on the tweets
 .block-title h1 {
 	font-family: 'Open Sans', sans-serif;
 }
+
 }
 
 h2 {
