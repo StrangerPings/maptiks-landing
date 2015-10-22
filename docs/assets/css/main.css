@@ -19,9 +19,27 @@ light green #567C5C
 #6BA1CF
 */
 
+.navbar-right {
+	margin-top: 4px;
+	font-size: 0.920101em;	
+}
+
+.a.navbar-brand .strong {
+	background-color: black;
+}
+.logo-image {
+	height: 45px;
+	margin-top: -8px;
+
+}
+
+.app-footer {
+	background-color: #38474f;
+}
 
 .app-marketing-grid {
-	padding-top: 5.022022em;
+	padding-bottom: 1.022022em;
+	padding-top: 2.02020202em;
 }
 
 .grey-top {
@@ -53,13 +71,14 @@ light green #567C5C
 	color: #ffffff;
 	background-color: #288fb2;
 	border-color: #2D95FF;
+	
 	border-radius: 2px;
 }
 
 .btn-primary:hover {
 	color: #ffffff;
 	background-color: ##567C5C;
-	border-color: #38474f;
+		border-color: #38474f;
 }
 
 .btn-default {
@@ -74,6 +93,11 @@ light green #567C5C
 .nav-bordered.nav-stacked {
 	color: #2D95FF
 }
+
+.no-top {
+	margin-top: -50px;
+}
+
 /* Fonts and stuff*/
 
 
