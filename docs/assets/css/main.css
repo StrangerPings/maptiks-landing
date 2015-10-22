@@ -1,62 +1,32 @@
-/* 
-Project Name: Maptiks New
-Author: Julien Jacques @julienjacques on the tweets
+
+/* MAIN CSS file for my awesome edits 
+
+Created by Julien Jacques. Find me on the tweets @julienjacques.
+For Maptiks latest and greatest website.
+
+documentation:
+http://themes.getbootstrap.com/products/marketing
 */
 
 
 
-/*----------------------------------------------------------------------------- 
-=Colors
-
-blue: #288FB2
-light grey background: #f8f8f8
-background dark: #338474F
-orange: #ef6c00
------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------- 
-=HERO
------------------------------------------------------------------------------*/
-
-body {
-	font-size: 200px;
-}
-
-.app-graph-reverse {
-  width: 150%;
-  position: absolute;
-  right: -40;
-  top: 0px;
-}
-
-#brand-icon {
-	width: 25px;
-	height: 15px;
-}
-
-
 .browser-image {
-	width: 100px;
-	height: 100px;
+	width: 440px;
+	height: 100%
 }
 
-/*----------------------------------------------------------------------------- 
-=TEST THIS
------------------------------------------------------------------------------*/
-.brand-icon-block {
-  padding-bottom: 20px;
-}
-@media (min-width: 68px) {
-  .brand-icon-block {
-    padding-bottom: 0;
-  }
-}
 
-.block-title h1 {
+
+
+
+/* Fonts and stuff*/
+
+
+h1 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-}
 
-h2 {
+h3 {
 	font-family: 'Open Sans', sans-serif;
 }
