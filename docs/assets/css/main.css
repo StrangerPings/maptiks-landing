@@ -132,11 +132,17 @@ p {
 
 
 
+#nav-square-icon {
+	width: 35px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
 
 
 
-
-
+.p-x-md {
+	padding-right: 120px;
+}
 
 
 
