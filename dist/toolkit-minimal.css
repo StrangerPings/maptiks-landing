@@ -2284,18 +2284,18 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #288FB2;
+  background-color: #685d9f;
   border-color: #5d548f;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #288FB2;
+  background-color: #534a7f;
   border-color: #29253e;
 }
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #288FB2;
+  background-color: #534a7f;
   border-color: #443d68;
 }
 .btn-primary:active,
