@@ -140,12 +140,26 @@ p {
 
 
 
-.p-x-md {
-	padding-right: 120px;
+.integration-images {
+	width: 260px;
+	height: 100%;
 }
 
+.integration-images-small {
+	width: 160px;
+	height: 100%;
+}
 
+.margin-top-minus-60
+{
+	margin-top: -60px;
+}
 
+.margin-top-minus-80
+{
+	margin-top: -100px;
+}
 
-
-
+.top-margin {
+	margin-top: 3.1020202em;
+}
