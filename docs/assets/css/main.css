@@ -1,7 +1,7 @@
 
 /* MAIN CSS file for my awesome edits 
 
-Created by Julien Jacques. Find me on the tweets @julienjacques.
+Created by Julien Jacques. Find me on the tweets @julienjacques
 For Maptiks latest and greatest website.
 
 documentation:
@@ -58,7 +58,6 @@ light green #567C5C
 	border-radius: 2px;
 }
 
-
 .app-ribbon {
 	background: #38474f;
 }
@@ -90,7 +89,6 @@ light green #567C5C
 	background-color: white;
 }
 
-
 .nav-bordered.nav-stacked {
 	color: #2D95FF
 }
@@ -117,13 +115,7 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-p {
-	
-}
-
-
 /* Header stuff and things*/
-
 
 .block .block-inverse .block-fill-height .app-header .app-header-short {
 	display: table;
@@ -138,7 +130,6 @@ p {
 	margin-bottom: 8px;
 }
 
-
 .integration-images {
 	width: 260px;
 	height: 100%;
@@ -149,16 +140,15 @@ p {
 	height: 100%;
 }
 
-.margin-top-minus-60
-{
+.margin-top-minus-60 {
 	margin-top: -60px;
 }
 
-.margin-top-minus-80
-{
+.margin-top-minus-80 {
 	margin-top: -100px;
 }
 
 .top-margin {
 	margin-top: 3.1020202em;
 }
+
