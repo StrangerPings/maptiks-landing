@@ -11,7 +11,8 @@ COLOURS:
 
 blue #288fb2
 blue hover #22abdf
-orange #ff8e31
+light-orange #ff8e31
+orange #ef6c00
 dark blue #38474f
 light grey #f8f8f8
 blue hover #2D95FF
@@ -24,6 +25,20 @@ light green #567C5C
 blueish-grey : #8496A5
 blueish-blue: 6EA4CF;
 */
+
+
+.no-background {
+	background-color: white;
+}
+
+
+.btn-info-outline {
+	border-color: #0b89ff
+}
+
+.btn  {
+	border-radius: 2px;
+}
 
 .feature-image{
 	height: 135px;
@@ -88,15 +103,15 @@ blueish-blue: 6EA4CF;
 
 .btn-primary {
 	color: #ffffff;
-	background-color: #288fb2;
-	border-color: #2D95FF;
+	background-color: #ef6c00;
+	border-color: #ef6c00;
 	border-radius: 2px;
 }
 
 .btn-primary:hover {
 	color: #ffffff;
-	background-color: ##567C5C;
-	border-color: #38474f;
+	background-color: #ff8e31;
+	border-color: #ef6c00;
 }
 
 .btn-default {
