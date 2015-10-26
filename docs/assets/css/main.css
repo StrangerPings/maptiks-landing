@@ -17,12 +17,18 @@ light grey #f8f8f8
 blue hover #2D95FF
 light green #567C5C
 #6BA1CF
+
+#c2c2c2
+
+
+blueish-grey : #8496A5
+blueish-blue: 6EA4CF;
 */
 
 .feature-image{
 	height: 135px;
 	border: solid 1px;
-	border-color: #cccccc;
+	border-color: #e1e1e1;
 	border-radius: 2px;
 }
 
@@ -57,7 +63,7 @@ light green #567C5C
 }
 
 .grey-top {
-	border-top: solid 2px #f8f8f8;
+	border-top: solid 1px #e1e1e1;
 
 }
 
@@ -123,7 +129,9 @@ h1.block-title {
 	line-height: 1.4;
 }
 
-
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
 
 /* Header stuff and things*/
 
@@ -143,6 +151,8 @@ h1.block-title {
 .integration-images {
 	width: 260px;
 	height: 100%;
+	position: relative;
+	vertical-align: middle;
 }
 
 .integration-images-small {
@@ -162,3 +172,43 @@ h1.block-title {
 	margin-top: 3.1020202em;
 }
 
+
+/* Forms */
+
+
+label {
+    margin-top: 5px;
+    font-color: #8496A5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, textarea {
+    width:439px;
+    height:45px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    color:#3a3a3a;
+    border-radius:2px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+
+
+#submit {
+    width:140px;
+    height: 45px;
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    text-color: black;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
