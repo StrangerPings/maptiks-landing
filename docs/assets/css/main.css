@@ -40,7 +40,7 @@ blueish-blue: 6EA4CF;
 
 .navbar-right {
 	margin-top: 4px;
-	font-size: 0.920101em;	
+
 }
 
 .a.navbar-brand .strong {
@@ -48,7 +48,7 @@ blueish-blue: 6EA4CF;
 }
 
 .logo-image {
-	height: 45px;
+	height: 42px;
 	margin-top: -8px;
 
 }
@@ -135,6 +135,10 @@ h3 {
 
 /* Header stuff and things*/
 
+#top-nav-cta {
+	margin-top: -7px;
+}
+
 .block .block-inverse .block-fill-height .app-header .app-header-short {
 	display: table;
 	width: 100%;
@@ -196,7 +200,6 @@ input, textarea {
 input:focus, textarea:focus {
     border:1px solid #97d6eb;
 }
-
 
 
 #submit {
