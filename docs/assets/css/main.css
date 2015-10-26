@@ -19,6 +19,18 @@ light green #567C5C
 #6BA1CF
 */
 
+.feature-image{
+	height: 135px;
+	border: solid 1px;
+	border-color: #cccccc;
+	border-radius: 3px;
+}
+
+.cust-block {
+	background-color: black;
+	color: black;
+	border-bottom: solid 1px black;
+}
 
 .navbar-right {
 	margin-top: 4px;
@@ -71,14 +83,13 @@ light green #567C5C
 	color: #ffffff;
 	background-color: #288fb2;
 	border-color: #2D95FF;
-
 	border-radius: 2px;
 }
 
 .btn-primary:hover {
 	color: #ffffff;
 	background-color: ##567C5C;
-		border-color: #38474f;
+	border-color: #38474f;
 }
 
 .btn-default {
