@@ -40,6 +40,7 @@ light green #567C5C
 .a.navbar-brand .strong {
 	background-color: black;
 }
+
 .logo-image {
 	height: 45px;
 	margin-top: -8px;
@@ -122,9 +123,7 @@ h1.block-title {
 	line-height: 1.4;
 }
 
-h3 {
-	font-family: 'Open Sans', sans-serif;
-}
+
 
 /* Header stuff and things*/
 
