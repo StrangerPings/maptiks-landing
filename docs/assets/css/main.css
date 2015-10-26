@@ -27,6 +27,21 @@ blueish-blue: 6EA4CF;
 */
 
 
+#demo-button {
+	color: #c2c2c2;
+	border-color: #c2c2c2;
+	border-radius: 1px;
+	margin-right: 10px;
+
+}
+
+#demo-button:hover {
+	background-color: transparent;
+	color: #ffffff;
+	border-color: #ffffff;
+
+}
+
 .no-background {
 	background-color: white;
 }
@@ -36,8 +51,11 @@ blueish-blue: 6EA4CF;
 	border-color: #0b89ff
 }
 
-.btn  {
+.btn-lg  {
 	border-radius: 2px;
+	font-size: 0.989898em;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .feature-image{
@@ -106,12 +124,14 @@ blueish-blue: 6EA4CF;
 	background-color: #ef6c00;
 	border-color: #ef6c00;
 	border-radius: 2px;
+	font-size: 0.989898em;
 }
 
 .btn-primary:hover {
 	color: #ffffff;
 	background-color: #ff8e31;
 	border-color: #ef6c00;
+	font-size: 0.989898em;
 }
 
 .btn-default {
