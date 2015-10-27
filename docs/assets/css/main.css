@@ -36,7 +36,7 @@ blueish-blue: 6EA4CF;
 	color: #c2c2c2;
 	border-color: #c2c2c2;
 	border-radius: 1px;
-	margin-right: 10px;
+	margin-left: 13px;
 
 }
 
@@ -228,10 +228,16 @@ h3 {
 }
 
 
-#nav-white {
-	font-color: black;
-	color: black;
+#nav-white a {
+	color: #8496A5
+}
 
+#nav-white a:hover {
+	color: #6EA4CF;
+}
+
+#white-button {
+	background-color: #6EA4CF;
 }
 
 /* Forms */
