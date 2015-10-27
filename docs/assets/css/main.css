@@ -27,6 +27,8 @@ blueish-blue: 6EA4CF;
 */
 
 
+
+
 #demo-button {
 	color: #c2c2c2;
 	border-color: #c2c2c2;
@@ -48,7 +50,13 @@ blueish-blue: 6EA4CF;
 
 
 .btn-info-outline {
-	border-color: #0b89ff
+	border-color: #0b89ff;
+	color: #0b89ff;
+}
+
+.btn-info-outline:hover {
+	background-color: #0b89ff;
+
 }
 
 .btn-lg  {
@@ -214,6 +222,13 @@ h3 {
 
 .features-title {
 	font-size: 1.698989em;
+}
+
+
+#nav-white {
+	font-color: black;
+	color: black;
+
 }
 
 /* Forms */
