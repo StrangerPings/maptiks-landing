@@ -1,62 +1,281 @@
-/* 
-Project Name: Maptiks New
-Author: Julien Jacques @julienjacques on the tweets
+
+/* MAIN CSS file for my awesome edits 
+
+Created by Julien Jacques. Find me on the tweets @julienjacques
+For Maptiks latest and greatest website.
+
+documentation:
+http://themes.getbootstrap.com/products/marketing
+
+COLOURS:
+
+blue #288fb2
+blue hover #22abdf
+light-orange #ff8e31
+orange #ef6c00
+dark blue #38474f
+light grey #f8f8f8
+blue hover #2D95FF
+light green #567C5C
+#6BA1CF
+
+#c2c2c2
+
+
+blueish-grey : #8496A5
+blueish-blue: 6EA4CF;
 */
 
 
-
-/*----------------------------------------------------------------------------- 
-=Colors
-
-blue: #288FB2
-light grey background: #f8f8f8
-background dark: #338474F
-orange: #ef6c00
------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------- 
-=HERO
------------------------------------------------------------------------------*/
-
-body {
-	font-size: 200px;
+.top-hero-image {
+	border-radius: 5px;
+	margin-top: 35px;
 }
 
-.app-graph-reverse {
-  width: 150%;
-  position: absolute;
-  right: -40;
-  top: 0px;
+#demo-button {
+	color: #c2c2c2;
+	border-color: #c2c2c2;
+	border-radius: 1px;
+	margin-left: 13px;
+
 }
 
-#brand-icon {
-	width: 25px;
-	height: 15px;
+#demo-button:hover {
+	background-color: transparent;
+	color: #ffffff;
+	border-color: #ffffff;
+
 }
 
+.no-background {
+	background-color: white;
+}
+
+
+.btn-info-outline {
+	border-color: #0b89ff;
+	color: #0b89ff;
+}
+
+.btn-info-outline:hover {
+	background-color: #0b89ff;
+
+}
+
+.btn-lg  {
+	border-radius: 2px;
+	font-size: 0.989898em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+.feature-image{
+	height: 135px;
+	border: solid 1px;
+	border-color: #e1e1e1;
+	border-radius: 2px;
+}
+
+.cust-block {
+	background-color: black;
+	color: black;
+	border-bottom: solid 1px black;
+}
+
+.navbar-right {
+	margin-top: 4px;
+
+}
+
+.a.navbar-brand .strong {
+	background-color: black;
+}
+
+.logo-image {
+	height: 42px;
+	margin-top: -8px;
+
+}
+
+.app-footer {
+	background-color: #38474f;
+}
+
+.app-marketing-grid {
+	padding-bottom: 1.022022em;
+	padding-top: 2.02020202em;
+}
+
+.grey-top {
+	border-top: solid 1px #e1e1e1;
+
+}
+
+.left {
+	text-align: left;
+}
 
 .browser-image {
-	width: 100px;
-	height: 100px;
+	width: 490px;
+	height: 100%
+	border-radius: 2px;
 }
 
-/*----------------------------------------------------------------------------- 
-=TEST THIS
------------------------------------------------------------------------------*/
-.brand-icon-block {
-  padding-bottom: 20px;
-}
-@media (min-width: 68px) {
-  .brand-icon-block {
-    padding-bottom: 0;
-  }
+.app-ribbon {
+	background: #38474f;
 }
 
-.block-title h1 {
+
+.app-code-block{
+	background-color: #38474f;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #ef6c00;
+	border-color: #ef6c00;
+	border-radius: 2px;
+	font-size: 0.989898em;
+}
+
+.btn-primary:hover {
+	color: #ffffff;
+	background-color: #ff8e31;
+	border-color: #ef6c00;
+	font-size: 0.989898em;
+}
+
+.btn-default {
+	border-radius: 2px;
+}
+
+.stage-shelf {
+	background-color: white;
+}
+
+.nav-bordered.nav-stacked {
+	color: #2D95FF
+}
+
+.no-top {
+	margin-top: -50px;
+}
+
+/* Fonts and stuff*/
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	line-height: 1.3em;
+	letter-spacing: 0.0em;
+}
+
+h1.block-title {
+	line-height: 1.4;
+}
+
+h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* Header stuff and things*/
+
+#top-nav-cta {
+	margin-top: -7px;
 }
 
-h2 {
-	font-family: 'Open Sans', sans-serif;
+.block .block-inverse .block-fill-height .app-header .app-header-short {
+	display: table;
+	width: 100%;
+	height: 25vh;
 }
+
+
+#nav-square-icon {
+	width: 35px;
+	margin-left: 30px;
+	margin-bottom: 8px;
+}
+
+.integration-images {
+	width: 260px;
+	height: 100%;
+	position: relative;
+	vertical-align: middle;
+}
+
+.integration-images-small {
+	width: 160px;
+	height: 100%;
+}
+
+.margin-top-minus-60 {
+	margin-top: -60px;
+}
+
+.margin-top-minus-80 {
+	margin-top: -100px;
+}
+
+.top-margin {
+	margin-top: 3.1020202em;
+}
+
+
+.features-title {
+	font-size: 1.698989em;
+}
+
+
+#nav-white a {
+	color: #8496A5
+}
+
+#nav-white a:hover {
+	color: #6EA4CF;
+}
+
+#white-button {
+	background-color: #6EA4CF;
+}
+
+/* Forms */
+
+
+label {
+    margin-top: 5px;
+    font-color: #8496A5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, textarea {
+    width:439px;
+    height:45px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    color:#3a3a3a;
+    border-radius:2px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+
+#submit {
+    width:140px;
+    height: 45px;
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    text-color: black;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}

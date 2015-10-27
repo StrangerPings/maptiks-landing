@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      
+        Integrations | Integrate web map anylitics to LeafletJS, OpenLayers 3 and Google Maps API &middot; 
+      
+    </title>
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="assets/css/application-startup.css" rel="stylesheet">
+      <link href="assets/css/main.css" rel="stylesheet">
+
+      <!--Fonts-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+  </head>
+
+
+<body>
+  
+<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+  <ul class="nav nav-bordered nav-stacked">
+  <img src="assets/img/maptiks-square.png" alt="maptiks-icon" id="nav-square-icon">
+    <li class="nav-header">Overview</li>
+    <li class="active">
+      <a href="freatues.html">Features</a>
+    </li>
+    <li>
+      <a href="integrations.html">Integrations</a>
+    </li>
+    <li>
+      <a href="bold/index.html">Plans</a>
+    </li>
+    <li>  
+    <a href="https://analytics.maptiks.com/#/signup">
+    <button type="button" class="btn btn-sm btn-primary-outline">Sign up</button></a>
+     </li>
+    <li class="nav-divider"></li>
+    <li class="nav-header">Details</li>
+    <li>
+      <a href="docs/index.html">Support</a>
+    </li>
+    <li>
+      <a href="http://getbootstrap.com">Partner Program</a>
+    </li>
+    <li>
+      <a href="http://getbootstrap.com">Blog</a>
+    </li> 
+    <li>
+      <a href="http://getbootstrap.com">Contact Us</a>
+    </li>
+
+  </ul>
+</div>
+
+<!-- Top Nav Nar -->
+<div class="stage" id="stage">
+
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-md">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed p-x-0"
+              data-target="#stage" data-toggle="stage" data-distance="-250">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><!-- Logo -->
+        <strong style="background: ; padding: 12px; border-radius: 2px; color: #28669F;">
+        <img src="assets/img/maptiks-logo-white.png" class="logo-image" alt="maptiks">  
+        </strong>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse text-uppercase">
+      <ul class="nav navbar-nav navbar-right">
+        <li >
+          <a href="features.html">Features</a>
+        </li>
+        <li >
+          <a href="integrations.html">Integrations</a>
+        </li>
+        <li >
+          <a href="plans.html">Plans</a>
+        </li>
+        <li >
+        <a href="https://analytics.maptiks.com/#/signup">
+          <button type="button" class="btn btn-sm btn-primary-outline" id="top-nav-cta">free <- sign Up</button></a>
+        </li>
+      </ul>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+
+
+
+<div class="block block-inverse block-secondary app-code-block">
+  <div class="container">
+    <div class="row app-align-center">
+      <div class="col-sm-5 col-sm-push-7">  
+      <div class="col-sm-5 col-sm-push-7">
+        <pre class="app-code top-margin">
+<span>1</span> <span class="hidden-xs">Maptiks Analytics</span> “start tracking leaflet right meow!”
+<span>2</span>
+<span>3</span> &lt;script src=&quot;//cdn.leafletjs/leaflet-0.7.5/&quot;&gt;&lt;/script&gt;
+<span>4</span>  &lt;!-- ADD NEXT TWO LINES AFTER LIBRARY HAS LOADED --&gt;
+<span>5</span>      
+<span>6</span>     
+<span>7</span>  &lt;script src=&quot;//cdn.maptiks.min.js&quot;&gt;&lt;/script&gt;
+<span>8</span>  &lt;script&gt;maptiks.trackcode='67f8ce06-141e';&lt;/script&gt;
+<span>9</span>    
+<span>10</span>    
+<span>11</span> &lt;!-- ADD TWO LINES BEFORE MAP IS INITIALIZED --&gt;   
+<span>12</span> &lt;script src=&quot;/path/to/leaflet.js&quot;&gt;&lt;/script&gt;</pre>  
+      </div>   
+      </div>
+      <div class="col-sm-6 col-sm-pull-5">
+        <h6 class="text-muted text-uppercase">All about the money</h6>
+        <h3 class="m-t-0">We're integrating with all modern mapping platforms.</h3>
+        <p class="lead m-b-md text-muted">We're developing Maptiks to be compatible with all modern mapping platforms, out of the box. However, seasoned GIS developers can customize Maptiks to integrate with legacy systems as well.</p>
+         <button class="btn btn-default btn-lg btn-borderless">
+          Start now
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- integrations section -->
+
+<div class="block block-secondary app-block-marketing-grid">
+  <div class="container text-center">
+
+    <div class="row m-b-lg">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+        <h6 class="text-muted text-uppercase">Available today</h6>
+        <h3  class="m-t-0 m-b">Well what about all of the things that don't work?</h3>
+      </div>
+    </div>
+
+    <div class="row app-marketing-grid margin-top-minus-60">
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img src="assets/img/leafletjs.png" class="integration-images">
+        
+      </div>
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img src="assets/img/openlayers.png" class="integration-images">
+    
+      </div>
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img src="assets/img/google-maps.png" class="integration-images">
+      </div>
+    </div>
+    <div class="block block-secondary app-block-marketing-grid">
+  <div class="container text-center">
+
+    <div class="row m-b-lg">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 margin-top-minus-60">
+        <h6 class="text-muted text-uppercase">Coming soon</h6>
+      </div>
+    </div>
+
+    <div class="row app-marketing-grid margin-top-minus-80">
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img src="assets/img/esri.png" class="integration-images-small">
+        
+      </div>
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img src="assets/img/mapbox.png" class="integration-images-small">
+    
+      </div>
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img src="assets/img/cartodb.png" class="integration-images-small">
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="block app-ribbon p-y-lg">
+  <div class="container text-center">
+    <img src="assets/img/startup-4.svg">
+    <img src="assets/img/startup-5.svg">
+    <img src="assets/img/startup-6.svg">
+    <img src="assets/img/startup-7.svg">
+    <img src="assets/img/startup-8.svg">
+  </div>
+</div>
+
+
+
+<!-- Screenshots aSide by Side Text -->
+<div class="block block-secondary app-block-marketing-grid">
+  <div class="container text-center">
+
+    <div class="row m-b-lg">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+        <h6 class="text-muted text-uppercase">This is just the start</h6>
+        <h1  class="m-t-0 m-b">Developers, this one is for you.</h1>
+      </div>
+    </div>
+
+    <div class="row app-marketing-grid no-top">
+      <div class="col-md-6 p-x-md m-b-lg left">
+        <h3>Integrating with all of the tools you already love and use.</h3>
+        <p>With our BETA software, we introduced mapping analytics for all open source mapping platforms. Major international clients now depend on Maptiks to provide analytics for all of their web maps. But we want to do more. We are entirely focused on building the best tools for GIS developers, which means playing friendly with all of your other tools you depend on.
+        <ul class="iconlist">
+          <li><span class="icon icon-check"></span>Slack</li>
+          <li><span class="icon icon-check"></span>Pagerduty</li>
+          <li><span class="icon icon-check"></span>Segment</li>
+        </ul></p><br>
+        <button class="btn btn-primary btn-lg">Try it now</button>
+      </div>
+      <div class="col-md-6 p-x-md m-b-lg left">
+       <h3>We build a lot of maps. And mapping analytics is just the beginning.</h3>
+        <p>We are geospatial nerds and we love building maps. And now, anyone can get enterprise level analytics for their web maps with just a few clicks. But we're not stopping there. Our goal is to provide better insights into who and how your web maps are being used, without having to build your own custom dashboards and waste precious development time.We're here to help entrepreneurs, GIS teams and consultants focus on what really matters - building the best user experience and growing their business.</p>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Get started block -->
+<div class="block block-secondary app-block-marketing-grid">
+  <div class="container text-center">
+
+      <div class="callout">
+        <div class="callout-content left">
+         <h3> <strong>Get started with web map analytics.</strong> Integrate all of your web maps and #buildabettermap.</h3>
+        </div>
+
+        <div class="callout-secondary">
+          <button class="btn btn-lg btn-primary btn-block">Get started</button>
+        </div>
+      </div>
+  </div>
+  </div>
+
+
+
+
+<div class="block block-inverse app-footer">
+ <div class="container">
+    <div class="row">
+      <div class="col-sm-5 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">About</h6></li>
+          <li class="text-muted">
+           Maptiks is built for GIS developers and teams who are frustrated by not having enough insights regarding their web maps. Maptiks is a premium web map analytics tool built for geospatial geeks by geospatial geeks</a>.
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-2 col-sm-offset-1 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">Product</h6></li>
+          <li class="text-muted">Features</li>
+          <li class="text-muted">Examples</li>
+          <li class="text-muted">Tour</li>
+          <li class="text-muted">Gallery</li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">Apis</h6></li>
+          <li class="text-muted">Rich data</li>
+          <li class="text-muted">Simple data</li>
+          <li class="text-muted">Real time</li>
+          <li class="text-muted">Social</li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">Legal</h6></li>
+          <li class="text-muted">Terms</li>
+          <li class="text-muted">Privacy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+  </body>
+</html>
+
