@@ -24,7 +24,14 @@ light green #567C5C
 
 blueish-grey : #8496A5
 blueish-blue: 6EA4CF;
+
+
+LINKED FILES
+Feature list:  http://hubs.ly/H01lvCK0
 */
+
+
+
 
 
 .top-hero-image {
@@ -184,7 +191,15 @@ h3 {
 
 #top-nav-cta {
 	margin-top: -7px;
+		color: #c2c2c2;
+	border-color: #c2c2c2;
+	border-radius: 1px;
 }
+
+#top-nav-cta:hover {
+	background-color: transparent;
+	color: #ffffff;
+	border-color: #ffffff;
 
 .block .block-inverse .block-fill-height .app-header .app-header-short {
 	display: table;
