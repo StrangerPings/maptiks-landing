@@ -30,9 +30,24 @@ LINKED FILES
 Feature list:  http://hubs.ly/H01lvCK0
 */
 
+.plans-top-copy {
+	margin-bottom: -50px;
+	margin-top: 20px
+}
 
 
+.nav-square-icon {
+	width: 35px;
+	height: 100%;
+	margin-left: 30px;
+	margin-bottom: 8px;
+}
 
+.integration-images {
+	width: 260px;
+	height: 100%;
+	vertical-align: middle;
+}
 
 .top-hero-image {
 	border-radius: 5px;
@@ -200,6 +215,7 @@ h3 {
 	background-color: transparent;
 	color: #ffffff;
 	border-color: #ffffff;
+}
 
 .block .block-inverse .block-fill-height .app-header .app-header-short {
 	display: table;
@@ -207,19 +223,6 @@ h3 {
 	height: 25vh;
 }
 
-
-#nav-square-icon {
-	width: 35px;
-	margin-left: 30px;
-	margin-bottom: 8px;
-}
-
-.integration-images {
-	width: 260px;
-	height: 100%;
-	position: relative;
-	vertical-align: middle;
-}
 
 .integration-images-small {
 	width: 160px;
