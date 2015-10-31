@@ -31,6 +31,8 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 
 */
 
+
+
 #top-nav-cta-white {
 	margin-top: -7px;
 		color: #6EA4CF;
@@ -216,6 +218,10 @@ h1.block-title {
 
 h3 {
 	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+	  text-decoration: none;
 }
 
 /* Header stuff and things*/
