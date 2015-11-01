@@ -28,36 +28,14 @@ blueish-grey : #6EA4CF
 LINKED FILES
 Feature list:  http://hubs.ly/H01lNdL0
 Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
-
+click to tweet : http://ctt.ec/Oqaz7
+sign up: https://analytics.maptiks.com/#/signup
 */
-
-
-
-#top-nav-cta-white {
-	margin-top: -7px;
-		color: #6EA4CF;
-	border-color: #6EA4CF;
-	border-radius: 1px;
-}
-
-#top-nav-cta-white:hover {
-	background-color: transparent;
-	color: #38474f;
-	border-color: #38474f;
-}
 
 
 .plans-top-copy {
 	margin-bottom: -50px;
 	margin-top: 20px
-}
-
-
-.nav-square-icon {
-	width: 35px;
-	height: 100%;
-	margin-left: 30px;
-	margin-bottom: 8px;
 }
 
 .integration-images {
@@ -77,14 +55,12 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 	border-color: #c2c2c2;
 	border-radius: 1px;
 	margin-left: 13px;
-
 }
 
 #demo-button:hover {
 	background-color: transparent;
 	color: #ffffff;
 	border-color: #ffffff;
-
 }
 
 .no-background {
@@ -99,7 +75,6 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 
 .btn-info-outline:hover {
 	background-color: #0b89ff;
-
 }
 
 .btn-lg  {
@@ -108,7 +83,6 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
-
 
 .feature-image{
 	height: 135px;
@@ -125,7 +99,6 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 
 .navbar-right {
 	margin-top: 4px;
-
 }
 
 .a.navbar-brand .strong {
@@ -135,7 +108,6 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 .logo-image {
 	height: 42px;
 	margin-top: -8px;
-
 }
 
 .app-footer {
@@ -149,7 +121,6 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 
 .grey-top {
 	border-top: solid 1px #e1e1e1;
-
 }
 
 .left {
@@ -165,7 +136,6 @@ Book a demo link: https://calendly.com/julien-maptiks/20-maptiks-demo;
 .app-ribbon {
 	background: #38474f;
 }
-
 
 .app-code-block{
 	background-color: #38474f;
@@ -224,11 +194,38 @@ a:hover {
 	  text-decoration: none;
 }
 
+
+
 /* Header stuff and things*/
+
+
+.btn-sm {
+	font-size: 11px;
+}
+
+.nav-square-icon {
+	width: 35px;
+	height: 100%;
+	margin-left: 30px;
+	margin-bottom: 8px;
+}
+
+#top-nav-cta-white {
+	margin-top: -7px;
+		color: #6EA4CF;
+	border-color: #6EA4CF;
+	border-radius: 1px;
+}
+
+#top-nav-cta-white:hover {
+	background-color: transparent;
+	color: #38474f;
+	border-color: #38474f;
+}
 
 #top-nav-cta {
 	margin-top: -7px;
-		color: #c2c2c2;
+	color: #c2c2c2;
 	border-color: #c2c2c2;
 	border-radius: 1px;
 }
@@ -244,7 +241,6 @@ a:hover {
 	width: 100%;
 	height: 25vh;
 }
-
 
 .integration-images-small {
 	width: 160px;
@@ -263,11 +259,9 @@ a:hover {
 	margin-top: 3.1020202em;
 }
 
-
 .features-title {
 	font-size: 1.698989em;
 }
-
 
 #nav-white a {
 	color: #8496A5
@@ -281,8 +275,9 @@ a:hover {
 	background-color: #6EA4CF;
 }
 
-/* Forms */
 
+
+/* Forms */
 
 label {
     margin-top: 5px;
@@ -304,7 +299,6 @@ input, textarea {
 input:focus, textarea:focus {
     border:1px solid #97d6eb;
 }
-
 
 #submit {
     width:140px;
