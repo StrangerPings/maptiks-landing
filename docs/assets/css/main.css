@@ -33,6 +33,7 @@ sign up: https://analytics.maptiks.com/#/signup
 */
 
 
+
 .plans-top-copy {
 	margin-bottom: -50px;
 	margin-top: 20px
@@ -252,6 +253,10 @@ a:hover {
 }
 
 .margin-top-minus-80 {
+	margin-top: -100px;
+}
+
+.margin-top-minus-100 {
 	margin-top: -100px;
 }
 
