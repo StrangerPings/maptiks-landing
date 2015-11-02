@@ -1,6 +1,13 @@
-# Thank you for purchasing an Official Bootstrap Theme <3 #
+Built off the analytics template. 
 
-Within your Bootstrap Theme you’ll find the following directories and files, grouping common resources and providing both compiled and minified distribution files, as well as raw source files.
+Julien Jacques
+@julienjacques
+
+
+November 1st, 2015
+
+
+
 
 ```
 toolkit/
