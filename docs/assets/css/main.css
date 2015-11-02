@@ -176,12 +176,16 @@ sign up: https://analytics.maptiks.com/#/signup
 
 /* Fonts and stuff*/
 
+p {
+	color: #898989;
+}
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	line-height: 1.3em;
 	letter-spacing: 0.0em;
+	color: #7d7d7d;
 }
 
 h1.block-title {
@@ -189,6 +193,7 @@ h1.block-title {
 }
 
 h3 {
+	color: #7d7d7d;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -221,8 +226,8 @@ a:hover {
 
 #top-nav-cta-white:hover {
 	background-color: transparent;
-	color: #38474f;
-	border-color: #38474f;
+	color: #b7b7b7;
+	border-color: #b7b7b7;
 }
 
 #top-nav-cta {
@@ -278,10 +283,12 @@ a:hover {
 }
 
 #white-button {
-	background-color: #6EA4CF;
+	background-color: #a2a2a2;
 }
 
-
+.navbar-transparent .navbar-toggle .icon-bar {
+	background-color: #a2a2a2;
+}
 
 /* Forms */
 
