@@ -68,7 +68,6 @@ sign up: https://analytics.maptiks.com/#/signup
 	background-color: white;
 }
 
-
 .btn-info-outline {
 	border-color: #0b89ff;
 	color: #0b89ff;
@@ -212,7 +211,7 @@ a:hover {
 }
 
 #top-nav-cta-white {
-	margin-top: -7px;
+	margin-top: -5px;
 		color: #6EA4CF;
 	border-color: #6EA4CF;
 	border-radius: 1px;
@@ -225,7 +224,7 @@ a:hover {
 }
 
 #top-nav-cta {
-	margin-top: -7px;
+	margin-top: -5px;
 	color: #c2c2c2;
 	border-color: #c2c2c2;
 	border-radius: 1px;
