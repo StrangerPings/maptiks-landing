@@ -32,7 +32,9 @@ click to tweet : http://ctt.ec/Oqaz7
 sign up: https://analytics.maptiks.com/#/signup
 */
 
-
+.transparent-background {
+	background-color: transparent;
+}
 
 .plans-top-copy {
 	margin-bottom: -50px;
